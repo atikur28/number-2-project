@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: black;
+    color: azure;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 80px;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    margin-right: 200px;
+    align-items: center;
+}
+.menu{
+   margin: 20px;
+   font-weight: bold;
+}
+.menu:hover{
+    color: red;
+    cursor: pointer;
+}
+.button{
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: azure;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.button:hover{
+    color: lawngreen;
+    cursor: pointer;
+}
+.topic{
+    background-image: url("./images/background.png"),
+    linear-gradient(50deg, rgb(7, 7, 7), rgb(39, 38, 38));
+    color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+}
+.padding{
+    margin: 10px;
+}
+.img{
+    width: 500px;
+}
+.header{
+    font-size: 55px;
+    font-weight: bold;
+}
+.logos{
+    background-color:rgba(185, 184, 183, 0.363);
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.para1{
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 0px 20px 0px;
+}
+.para2{
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    margin: 10px 0px 0px 0px;
+}
+.img-src{
+    width: 90px;
+}
+.header1{
+     font-size: 40px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.variety{
+    margin: 70px 450px 70px 450px;
+}
+.car-width{
+    width: 200px;
+}
+.cars{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.button1{
+    margin: 10px 0px 10px 0px;
+}
+.icons{
+    width: 120px;
+}
+.improvement{
+    height: 40vh;
+    background-color: rgba(185, 184, 183, 0.363);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.result{
+    text-align: center;
+    margin-left: 70px;
+}
+.big{
+    font-size: 40px;
+}
+
+
